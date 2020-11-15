@@ -4,7 +4,7 @@ def turn(board)
   input = gets.chomp
   index = input_to_index(input)
 
-  if valid_move?(boad,index) == true
+  if valid_move?(board,index) == true
         move(board, index)
         display_board(board)
         
